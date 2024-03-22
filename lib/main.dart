@@ -10,15 +10,30 @@ class _PerguntaAppState extends State<PerguntaApp> {
   final _perguntas = const [
     {
       'texto': 'Qual é a sua cor favorita?',
-      'respostas': ['Preto', 'Vermelho', 'Verde', 'Branco'],
+      'respostas': [
+        {"texto": 'Preto', "nota": 10},
+        {"texto": 'Vermelho', "nota": 5},
+        {"texto": 'Verde', "nota": 3},
+        {"texto": 'Branco', "nota": 1},
+      ],
     },
     {
       'texto': 'Qual é o seu animal favorito?',
-      'respostas': ['Coelho', 'Cobra', 'Elefante', 'Leão'],
+      'respostas': [
+        {"texto": 'Coelho', "nota": 10},
+        {"texto": 'Cobra', "nota": 5},
+        {"texto": 'Cachorro', "nota": 3},
+        {"texto": 'Gato', "nota": 1},
+      ],
     },
     {
       'texto': 'Qual é a sua marca de carro favorita?',
-      'respostas': ['Porshe', 'Ford', 'Chevrolet', 'Dodge'],
+      'respostas': [
+        {"texto": 'Dodge', "nota": 10},
+        {"texto": 'Porshe', "nota": 5},
+        {"texto": 'Chevrolet', "nota": 3},
+        {"texto": 'Alfa Romeo', "nota": 1},
+      ],
     },
   ];
 
